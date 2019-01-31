@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>title</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Thambi|Roboto" rel="stylesheet"> 
+
+</head>
+<body>
+	<a href="index.html" class="button">Go Back</a>
+	<button class="mainMenu">Main Menu</button>
+	<h1 class="wordart">JEOPARDY</h1>
+	
+
+	<!-- game selection  -->
+	<div id="gameSelectionMenu">
+		<p class="selectGameMode"> Select Game Mode: </p>
+		<p class="selectGameMode">
+<!-- 			<button id="randomGame">Random Question</button>
+			<button id="fullGame">Full Game</button> -->
+
+			<div id="randomGame" class="scale-up-center">random game</div>
+			<div id="fullGame" class="scale-up-center">full game</div>
+		</p>
+		<p class="selectQuestionNumber">How many questions would you like?</p>
+		<p class="selectQuestionNumber">
+			<input id="questionNum" type="number" min="0" max="50" step="5" value="10">
+			<button>Select</button>
+		</p>
+	</div>
+	
+	<!-- game board -->
+	<div id="board">
+		<p class="questionCounter"></p>
+
+		<div class="clue">
+			Score: <p id="score">0</p>
+			Category: <p class="category"></p>
+			Question: <p class="question"></p>
+			<p class="answer"></p>
+			<input id="userinput" type="text" placeholder="What is...?"/><button id="guess">Guess!</button>
+		</div>
+	</div>
+
+	<div class="end">
+		end screen here test
+	</div>
+	
+	<script type="text/javascript" src="jeopardy.js"></script>
+</body>
+</html>
