@@ -1,0 +1,22 @@
+{
+  "name": "jeopardy",
+  "version": "1.0.0",
+  "description": "jeopardy game to practice with api calls",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kellyericang/jeopardy.git"
+  },
+  "keywords": [
+    "jeopardy"
+  ],
+  "author": "kellyericang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kellyericang/jeopardy/issues"
+  },
+  "homepage": "https://github.com/kellyericang/jeopardy#readme"
+}
